@@ -4,8 +4,8 @@ import './App.css'
 import bgImage from './assets/bg.jpg'
 
 const LOCBOX_SCHEME = 'locbox://'
-const IOS_FALLBACK_URL = 'https://apps.apple.com/vn/app/locbox/idXXXXXXXX'
-const ANDROID_FALLBACK_URL = 'https://download.locbox.vn/locbox-latest.apk'
+const IOS_FALLBACK_URL = ''
+const ANDROID_FALLBACK_URL = ''
 const API_URL = 'https://locbox.vn/api/system/GetAppVersion'
 const API_TOKEN = 'A20260710150725959755piyc'
 
