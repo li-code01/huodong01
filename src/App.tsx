@@ -37,9 +37,9 @@ function App() {
   useEffect(() => {
     axios
       .post<{ data: { url: string } }>(
-        'https://test.locbox.vn/api/system/GetAppVersion',
+        'https://locbox.vn/api/system/GetAppVersion',
         { app_name: 'android' },
-        { headers: { token: 'A20260330135549381179xdso' } }
+        { headers: { token: 'A20260710150725959755piyc' } }
       )
       .then(({ data }) => {
         if (data?.data?.url) {
