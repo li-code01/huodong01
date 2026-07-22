@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/activity/',
+  base: '/activity',
   plugins: [react()],
-  build: {
-    outDir: 'dist/activity',
-  },
+  // build: {
+  //   outDir: 'dist/activity',
+  // },
 })
